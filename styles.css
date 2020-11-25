@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(55, 56, 53);
+  font-family: 'Overpass', sans-serif;
+  font-size: 26px;
+}
+h1{
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+  font-size: 65px;
+}
+header{
+  background-color: rgb(127, 169, 176);
+  color: rgb(255,255,255);
+}
+.divBarraNav{
+ position: fixed;
+ display: grid;
+ text-align: center;
+ padding-top: 20px;
+}
+.barraNav{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5%;
+  display: grid;
+}
+.liBarra{
+  border: solid 2px black;
+  list-style: none;
+  padding:10px;
+  text-align: center;
+  background-color: rgb(127, 169, 176);
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.main1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+}
+.trescajas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+main{
+  background-color: rgb(80, 235, 85);
+}
+h3{
+  text-align: center;
+  background-color: rgb(225, 255, 74);
+  font-family: 'Playball', cursive;
+  font-size: 45px;
+}
+.objetivos{
+  background-color: rgb(187, 242, 75);
+  font-family: 'Raleway', sans-serif;
+}
+footer{
+  color: rgb(255,255,255);
+}
+a{
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+a:hover{
+  color: rgb(9, 36, 7);
+}
+.flecha{
+  height: 60px;
+  width:60px;
+}
